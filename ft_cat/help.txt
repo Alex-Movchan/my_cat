@@ -1,0 +1,13 @@
+       cat - concatenate files and print on the standard output
+SYNOPSIS
+       cat [OPTION]... [FILE]...
+       Concatenate FILE(s) to standard output.
+       With no FILE, or when FILE is -, read standard input.
+        -b number nonempty output lines, overrides -n
+        -e display $ at end of each line
+        -s suppress repeated empty output lines
+        --help display this help and exit
+EXAMPLES
+       cat f - g
+              Output f's contents, then standard input, then g's contents.
+       cat    Copy standard input to standard output.
